@@ -30,7 +30,7 @@ dependencies = [
 test = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://onv.codes/mcp-setup"
+Homepage = "https://github.com/sftgroup/onv-cex"
 Repository = "https://github.com/sftgroup/onv-cex"
 Security = "https://github.com/sftgroup/onv-cex/blob/main/SECURITY.md"
 

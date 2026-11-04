@@ -45,7 +45,7 @@ pip install onv-cex
 git clone https://github.com/sftgroup/onv-cex && cd onv-cex && pip install -e ".[test]"
 ```
 
-依赖：`requests`（REST）、`ccxt>=4.0.0`（签名内核，可选安装——不装则无法建连，但精度/限频/结果类型仍可离线使用）。
+依赖：`requests`（REST）、`ccxt>=4.0.0`（`onv_cex.binance` 的签名内核；`onv_cex.base` / `symbols` / `spot_sizing` / `rate_limit` 本身不依赖 ccxt）。
 
 ## 用法
 
