@@ -1,0 +1,13 @@
+title = "onv-cex gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "公开仓内的示例与测试占位符"
+paths = [
+  '''README\.md$''',
+  '''SECURITY\.md$''',
+  '''PUBLISHING\.md$''',
+  '''tests/.*\.py$''',
+]

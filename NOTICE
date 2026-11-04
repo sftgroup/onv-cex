@@ -1,0 +1,17 @@
+onv-cex
+Copyright 2026 sftgroup
+
+This product includes software developed at sftgroup (https://onv.codes).
+
+The following components are required by this distribution:
+
+  requests                   Apache License 2.0
+  ccxt                       MIT License
+  certifi (optional)         Mozilla Public License 2.0
+
+Test tooling (not distributed at runtime):
+
+  pytest                     MIT License
+
+The exchange APIs themselves are governed by each exchange's own terms of service.
+See THIRD_PARTY_LICENSES.md for details.
